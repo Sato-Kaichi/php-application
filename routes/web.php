@@ -19,4 +19,4 @@ Route::get('/tasks', 'TaskController@index');
 Route::post('/tasks', 'TaskController@store');
 Route::delete('/tasks/(task)', 'TaskController@delete');
 
-\URL::forceScheme('https');
+// \URL::forceScheme('https');
